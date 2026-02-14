@@ -9,7 +9,7 @@ public class Main {
         Thread thread1 = new Thread(myRunnable);
         MyThread thread2 = new MyThread();
         thread2.setDaemon(true);
-thread1.start();
-thread2.start();
+        thread1.start();
+        thread2.start();
     }
 }
